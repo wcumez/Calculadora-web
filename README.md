@@ -33,7 +33,7 @@ También muestra una tabla de iteraciones con los errores y una gráfica de la f
 
 
 
-## 🧪 Métodos disponibles
+## Métodos disponibles
 
 1. **Bisección**  
    Método robusto que requiere un intervalo inicial `[a, b]` con cambio de signo.
@@ -46,7 +46,7 @@ También muestra una tabla de iteraciones con los errores y una gráfica de la f
 
 
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Python 3.8 o superior
 - Django 4.x
