@@ -12,10 +12,42 @@ También muestra una tabla de iteraciones con los errores y una gráfica de la f
 
 ## Características
 
-- Interfaz web sencilla.
 - Entrada de funciones simbólicas en términos de `x`.
 - Soporte para visualizar gráficamente la función.
 - Reporte detallado de las iteraciones con errores en porcentaje.
+
+---
+## Ingreso de datos
+Para utilizar correctamente la calculadora, se deben seguir los siguientes parámetros:
+Permitido:
+•	Usa x como variable.
+•	Escribe potencias con ** (doble asterisco):
+
+Ejemplo: x**2 + 3*x – 5
+
+
+
+
+•	Puedes usar operadores matemáticos comunes:
+•	Suma: +
+•	Resta: -
+•	Multiplicación: *
+•	División: /
+•	Puedes usar funciones matemáticas:
+•	sin(x), cos(x), tan(x)
+•	log(x) para logaritmo natural
+•	sqrt(x) para raíz cuadrada
+•	exp(x) para exponencial
+No utilizar:
+•	Escribir x^2 (usa x**2 en su lugar).
+•	Dejar espacios no necesarios.
+•	Usar mayúsculas en funciones (Sin(x) esto es incorrecto).
+•	Ingresar letras distintas de x como variables.
+Ejemplos válidos:
+•	x**3 - 4*x + 1
+•	sin(x) + x**2
+•	log(x) - x/2
+•	exp(x) - 3
 
 
 
@@ -28,21 +60,6 @@ También muestra una tabla de iteraciones con los errores y una gráfica de la f
 
 ![App Screenshot](calculadora/img/v2.png)
 
-
-
-
-
-
-## Métodos disponibles
-
-1. **Bisección**  
-   Método robusto que requiere un intervalo inicial `[a, b]` con cambio de signo.
-
-2. **Newton-Raphson**  
-   Método rápido que necesita una aproximación inicial `x0`.
-
-3. **Newton-Raphson Modificado**  
-   Variante del método de Newton que mejora la convergencia en polinomios con raíces múltiples.
 
 
 
