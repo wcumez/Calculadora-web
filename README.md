@@ -26,7 +26,7 @@ También muestra una tabla de iteraciones con los errores y una gráfica de la f
 
 ## Vista Ventana de Resultados
 
-![App Screenshot](calculadora/img/v1.png)
+![App Screenshot](calculadora/img/v2.png)
 
 
 
